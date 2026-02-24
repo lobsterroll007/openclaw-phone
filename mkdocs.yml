@@ -1,0 +1,53 @@
+site_name: "OpenClaw Phone"
+site_description: "Live workspace docs for the OpenClaw Phone project"
+site_url: "https://lobsterroll007.github.io/openclaw-phone/"
+repo_url: "https://github.com/lobsterroll007/openclaw-phone"
+docs_dir: "projects/openclaw-phone"
+theme:
+  name: "material"
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.snippets:
+      base_path: "."
+nav:
+  - Overview:
+      - Team Blueprint: team-plan.md
+      - Roles:
+          - Device Prep Specialist: roles/device-prep-specialist.md
+          - Automation Engineer: roles/automation-engineer.md
+          - Customer Experience Writer: roles/customer-experience-writer.md
+          - Sales & Funnel Builder: roles/sales-funnel-builder.md
+          - Margin & Ops Analyst: roles/ops-analyst.md
+          - Support & Concierge Lead: roles/support-concierge-lead.md
+  - Operations:
+      - Financial Model: financials.md
+      - Device Prep SOP: ops/sop-device-prep.md
+      - Device QA Log: ops/device-qa-log.md
+      - Golden Image Guide: ops/golden-image.md
+      - KPI Dashboard: ops/kpi-dashboard.md
+      - Restock Policy: ops/restock-policy.md
+      - Risk & Opportunity Brief: ops/risk-opportunity.md
+  - Automation:
+      - Provisioning Plan: automation/provisioning-plan.md
+      - Provisioning Script: automation/provision-script.md
+      - Prep Tracker Concept: automation/prep-tracker.md
+  - Customer Experience:
+      - Insert: customer-facing/insert.md
+      - Onboarding Guide: customer-facing/onboarding-guide.md
+      - Landing Copy: customer-facing/landing-copy.md
+      - Concierge Kit: customer-facing/concierge-kit.md
+  - Sales & Funnel:
+      - Order Tracker CSV: sales/order-tracker.csv
+      - Sales Scripts: sales/sales-scripts.md
+      - Lead Plan: sales/lead-plan.md
+      - Payment Flow: sales/payment-flow.md
+  - Support:
+      - Concierge Playbook: support/concierge-playbook.md
+      - Troubleshooting Flow: support/troubleshooting-flow.md
+      - Feedback Loop: support/feedback-loop.md
+      - Weekly Insights Template: support/weekly-insights-template.md

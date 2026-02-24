@@ -1,0 +1,12 @@
+.openclaw/
+site/
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+.env
+venv/
+.envrc
+.idea/
+.vscode/
+automation/logs/
