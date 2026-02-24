@@ -29,6 +29,7 @@ nav:
       - Device Prep SOP: ops/sop-device-prep.md
       - Device QA Log: ops/device-qa-log.md
       - Golden Image Guide: ops/golden-image.md
+      - Inventory Ledger: ops/inventory.md
       - KPI Dashboard: ops/kpi-dashboard.md
       - Restock Policy: ops/restock-policy.md
       - Risk & Opportunity Brief: ops/risk-opportunity.md
