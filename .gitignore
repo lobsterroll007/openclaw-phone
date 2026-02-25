@@ -10,3 +10,5 @@ venv/
 .idea/
 .vscode/
 automation/logs/
+
+projects/openclaw-control-app/
